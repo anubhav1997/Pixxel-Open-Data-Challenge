@@ -35,8 +35,7 @@ Please note that the implmentation makes use of the following libraries: Gdal, S
 | 2  | 0.7902  |
 | 3 | 0.7942 |
 | 4 | 0.7976 |
-| 5 | 0.8102 |
-| 6 |  0.7987 |
+| 5 | 0.466 |
 
 ##### Analysis
 
