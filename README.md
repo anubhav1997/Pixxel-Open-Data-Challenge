@@ -2,6 +2,7 @@
 
 ### Repository Structure
 - `main.py` conains the implementation of hyperspectral image segmentation. It takes in two parameters: 
+  
   i. -data - which refers to which hyperspectral image you want to utilize. 
   
   ii. -classifier which clustering algorithm do you want to utilize - MeanShift or DBSCAN or KMeans
