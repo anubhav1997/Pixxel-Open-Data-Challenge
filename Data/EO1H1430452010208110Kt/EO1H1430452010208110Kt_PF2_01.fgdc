@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>EarthExplorer</title>        <meta name="description" content="Query and order satellite images, aerial
+            photographs, and cartographic products through the U.S. Geological Survey" />
+        <meta name="keywords"
+            content="U.S. Geological Survey,USGS,National Mapping Division,NMD,USA,
+            United States,Territories,Antarctica,cartographic,cartography,geographic,
+            geography,geospatial data,geographic information system,GIS,mapping,maps,
+            aerial photographs,satellite imagery,digital elevation model,
+            digital raster graphic,digital orthophoto,topographic,topography,
+            geographic names,earthscience,data,geospatial metadata,geospatial data standards,
+            landsat,GNIS,NAPP,DEM,DRG,DOQ,NSDI,Earth Explorer, EarthExplorer" />
+        <meta name="author" content="USGS - U.S. Geological Survey" />
+        <meta name="publisher" content="USGS - U.S. Geological Survey" />
+        <meta name="classification" content="Government" />
+        <meta name="robots" content="ALL" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="Safe For Kids" />
+        <meta name="copyright" content="None" />
+        <meta name="language" content="English" />
+        <meta name="doc-type" content="Government" />
+        <meta name="doc-class" content="Living Document" />
+        <meta name="doc-rights" content="Public Domain" />
+        
+		 <link href="/css/custom.css" rel="stylesheet" type="text/css" />
+         <link href="/css/newhome.css" rel="stylesheet" type="text/css" />
+         <link href="/css/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" type="text/css" />
+         <link href="/css/extras.css" rel="stylesheet" type="text/css" />
+         <link href="/css/dropdownmenu.css" rel="stylesheet" type="text/css" />
+                  
+                  
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" ></script>
+         <script type="text/javascript" src="/js_include/EE.js"></script>
+         
+                     
+         <!--[if lte IE 7]>
+            <link href="/css/ie.css" rel="stylesheet" type="text/css" />
+         <![endif]-->
+    </head>
+    <body>
+        <!-- BEGIN USGS Header Template -->
+<div id="header">
+    <div id="headerLogo">
+        <a href="http://www.usgs.gov/" target="_blank">
+            <img src="/images/header/header_graphic_usgsIdentifier_white.jpg"
+                alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" 
+                style="width:178px;height:72px;" />
+        </a>
+    </div>
+    
+    <div id="headerGradientLeft"></div>
+    
+    <div id="usgsInfo">
+        <a href="http://www.usgs.gov/" target="_blank">USGS Home</a><br />
+        <a href="http://www.usgs.gov/ask/" target="_blank">Contact USGS</a><br />
+        <a href="http://search.usgs.gov/" target="_blank">Search USGS</a>
+    </div>
+    
+    <div id="headerGradientRight"></div>
+    
+    <div style="clear:both;"></div>
+</div>
+<!-- Top Header Bar -->
+        <div id="titleBar">
+            EarthExplorer        </div>
+
+
+    <pre>Identification_Information:  
+  Citation:  
+    Citation_Information:  
+      Originator:  U.S. Geological Survey (USGS) 
+      Publication_Date:  20100727
+      Title:   EO1 Hyperion Scene: EO1H1430452010208110Kt_PF2_01,  for target path
+143, and target row 45
+      Edition:  1
+      Geospatial_Data_Presentation_Form:  Remote-sensing image
+      Publication_Information:  
+        Publication_Place:  Sioux Falls, SD  USA
+        Publisher:  U.S. Geological Survey
+      Online_Linkage:  http://earthexplorer.usgs.gov
+  Description:  
+    Abstract:  The Earth Observing-1(EO-1)satellite was launched on November 21, 2000
+by the U.S. Geological Survey (USGS) and the National Aeronautics and Space
+Administration (NASA)as a one-year technology demonstration mission to evaluate the
+performance of advanced capabilities for future space missions.  The EO-1 mission
+validated highly integrated multispectral data from the Advanced Land Imager (ALI)
+sensor and hyperspectral imaging data from the Hyperion sensor. After the initial
+technology mission was accomplished, NASA and the USGS agreed to continue the EO-1
+program due to high interest in the specialized data from scientific communities. 
+
+EO-1 Data products consist of imagery collected during the original one-year mission,
+as well as more recent Data Acquisition Requests (DARs) from the EO-1 Extended
+Mission. EO-1 scenes are processed to Level 1Gst (L1Gst) and images with adequate
+ground control points are processed to Level 1T (L1T). L1Gst and L1T products are
+provided in GeoTIFF format.  Scenes that have been processed to L1T are also
+available as Full Resolution Browse and GIS Ready Bundle products in JPEG format. 
+Level 1R (L1R) products in HDF format are only available for Hyperion data.
+
+    Purpose:  Hyperion collects 220 unique spectral channels ranging from 0.357 to
+2.576 micrometers with a 10 nm bandwidth. The instrument operates in a pushbroom
+fashion, with a spatial resolution of 30 meters. Hyperion has a scene width of 7.7
+kilometers and a standard length of 42 kilometers with an optional increased length
+of 185 kilometers.  Additional information is available at http://eo1.usgs.gov, and
+http://eo1.gsfc.nasa.gov.
+    Supplemental_Information:  Data Acquisition Requests (DARS) must be submitted to
+request an image acquisition for a specific area of interest
+(http://eo1.usgs.gov/dar/instructions). EO-1 does not acquire data continuously and
+its sensors are only activated to collect specific scenes upon request. Although the
+ALI and Hyperion instruments continues to collect data for the extended mission,
+recently acquired scenes may not align directly with the WRS-2 path and row due to
+the degradation of the EO-1 orbit as the satellite draws closer to end of mission. 
+
+  Time_Period_of_Content:  
+    Time_Period_Information:  
+       
+        Range_of_Dates/Times:  
+          Beginning_Date:  20100727
+          Beginning_Time:  2010:208:04:55:40.527
+          Ending_Date:  20100727
+          Ending_Time:  2010:208:04:55:56.527
+    Currentness_Reference:  Ground condition
+  Status:  
+    Progress:  Complete
+    Maintenance_and_Update_Frequency:  None planned
+  Spatial_Domain:  
+    Bounding_Coordinates:  
+      West_Bounding_Coordinate:  80.551749
+      East_Bounding_Coordinate:  80.861882
+      North_Bounding_Coordinate:  22.516457
+      South_Bounding_Coordinate:  21.561877
+    Data_Set_G-Polygon:  
+      Data_Set_G-Polygon_Outer_G-Ring:  
+         
+          G-Ring_Latitude:  22.513800
+          G-Ring_Longitude:  80.785039
+          
+          G-Ring_Latitude:  22.499792
+          G-Ring_Longitude:  80.857910
+          
+          G-Ring_Latitude:  21.565990
+          G-Ring_Longitude:  80.630142
+          
+          G-Ring_Latitude:  21.579904
+          G-Ring_Longitude:  80.557728
+  Keywords:  
+    Theme:  
+       
+        Theme_Keyword_Thesaurus:  None
+        Theme_Keyword:  USGS
+        Theme_Keyword:  Hyperion
+        Theme_Keyword:  Phototgraphy
+        Theme_Keyword:  Earth Science
+        Theme_Keyword:  Landsat
+        Theme_Keyword:  NASA
+        Theme_Keyword:  Imagery
+        Theme_Keyword:  Radiance
+        Theme_Keyword:  Land Surface
+        Theme_Keyword:  Landforms
+        Theme_Keyword:  EO1
+        Theme_Keyword:  Hyperspectual
+        Theme_Keyword:  IMAGE_UL_CORNER_LAT:  22.513800
+        Theme_Keyword:  IMAGE_UL_CORNER_LON:  80.785039
+        Theme_Keyword:  IMAGE_UR_CORNER_LAT:  22.499792
+        Theme_Keyword:  IMAGE_UR_CORNER_LON:  80.857910
+        Theme_Keyword:  IMAGE_LL_CORNER_LAT:  21.579904
+        Theme_Keyword:  IMAGE_LL_CORNER_LON:  80.557728
+        Theme_Keyword:  IMAGE_LR_CORNER_LAT:  21.565990
+        Theme_Keyword:  IMAGE_LR_CORNER_LON:  80.630142
+        Theme_Keyword:  PRODUCT_UL_CORNER_LAT:  22.515894
+        Theme_Keyword:  PRODUCT_UL_CORNER_LON:  80.551749
+        Theme_Keyword:  PRODUCT_UR_CORNER_LAT:  22.516457
+        Theme_Keyword:  PRODUCT_UR_CORNER_LON:  80.860953
+        Theme_Keyword:  PRODUCT_LL_CORNER_LAT:  21.561877
+        Theme_Keyword:  PRODUCT_LL_CORNER_LON:  80.554743
+        Theme_Keyword:  PRODUCT_LR_CORNER_LAT:  21.562415
+        Theme_Keyword:  PRODUCT_LR_CORNER_LON:  80.861882
+        Theme_Keyword:  PRODUCT_UL_CORNER_MAPX:  453900.000000
+        Theme_Keyword:  PRODUCT_UL_CORNER_MAPY:  2490000.000000
+        Theme_Keyword:  PRODUCT_UR_CORNER_MAPX:  485700.000000
+        Theme_Keyword:  PRODUCT_UR_CORNER_MAPY:  2490000.000000
+        Theme_Keyword:  PRODUCT_LL_CORNER_MAPX:  453900.000000
+        Theme_Keyword:  PRODUCT_LL_CORNER_MAPY:  2384400.000000
+        Theme_Keyword:  PRODUCT_LR_CORNER_MAPX:  485700.000000
+        Theme_Keyword:  PRODUCT_LR_CORNER_MAPY:  2384400.000000
+    Place:  
+       
+        Place_Keyword_Thesaurus:  None
+        Place_Keyword:  Earth
+        Place_Keyword:  Worldwide
+        Place_Keyword:  Global
+  Access_Constraints:  N, (N=No, Y=Yes)
+  Use_Constraints:  None
+  Point_of_Contact:  
+    Contact_Information:  
+       
+        Contact_Organization_Primary:  
+          Contact_Organization:  U.S. Geological Survey Earth Resources Observation
+and Science (EROS) Center
+          Contact_Person:  lta@usgs.gov
+      Contact_Position:  Long Term Archive (LTA)  Representative
+      Contact_Address:  
+        Address_Type:  mailing and physical address
+        Address:  Long Term Archive (LTA),  U.S. Geological Survey  (USGS)
+Earth Resources Observation and Science (EROS) Center 
+47914 252nd Street
+
+        City:  Sioux Falls
+        State_or_Province:  SD
+        Postal_Code:  57198-0001
+        Country:  USA
+      Contact_Electronic_Mail_Address:  lta@usgs.gov
+      Hours_of_Service:  0800 - 1600 CT, M-F,  -6 h  GMT
+      Contact_Instructions:  lta@usgs.gov
+  Browse_Graphic:  
+    Browse_Graphic_File_Name:  Browse graphic for:
+http://earthexplorer.usgs.gov/browse/eo-1/hyp/143/45/2010/EO11430452010208110Kt_PF2_0
+1.jpeg
+    Browse_Graphic_File_Description:  thumbprint
+    Browse_Graphic_File_Type:  JPEG
+  Data_Set_Credit:  The EO1 Hyperion is a joint effort of the U.S. Geological Survey
+(USGS) and the National Aeronautics and Space Administration (NASA). 
+  Security_Information:  
+    Security_Classification_System:  none
+    Security_Classification:  unclassified
+    Security_Handling_Description:  none
+  Native_Data_Set_Environment:  Oracle
+Data_Quality_Information:  
+  Logical_Consistency_Report:  Unknown
+  Completeness_Report:  See  Data Dictionary
+http://earthexplorer.cr.usgs.gov/resources/helpdocs/dict/EO1.html
+  Lineage:  
+    Source_Information:  
+      Source_Citation:  
+        Citation_Information:  
+          Originator:  USGS &amp; NASA
+          Publication_Date:  20001101
+          Title:  Earth Observing - 1 Hyperion
+          Edition:  1
+          Geospatial_Data_Presentation_Form:  Remote-sensing image
+      Type_of_Source_Media:  Digital
+      Source_Time_Period_of_Content:  
+        Time_Period_Information:  
+           
+Single_Date/Time:  
+Calendar_Date:  20100727
+        Source_Currentness_Reference:  ground condition
+      Source_Citation_Abbreviation:  Digital
+      Source_Contribution:  Source material from which processed image is created
+    Process_Step:  
+      Process_Description:  Information about processing levels and download options
+are available at
+http://earthexplorer.usgs.gov/resources/helpdocs/dict/EO1.html#process_level.
+      Process_Date:  20100727
+  Cloud_Cover:  9
+Distribution_Information:  
+   
+    Distributor:  
+      Contact_Information:  
+         
+          Contact_Organization_Primary:  
+Contact_Organization:  U.S. Geological Survey Earth Resources Observation and Science
+(EROS) Center
+Contact_Person:  lta@usgs.gov
+        Contact_Position:  Long Term Archive (LTA)  Representative
+        Contact_Address:  
+          Address_Type:  mailing and physical address
+          Address:  Long Term Archive (LTA),  U.S. Geological Survey  (USGS)
+Earth Resources Observation and Science (EROS) Center 
+47914 252nd Street
+
+          City:  Sioux Falls
+          State_or_Province:  South Dakota
+          Postal_Code:  57198-0001
+          Country:  USA
+        Contact_Electronic_Mail_Address:  lta@usgs.gov
+        Hours_of_Service:  0800 - 1600 CT, M-F,   -6 h GMT
+    Distribution_Liability:  Although these data have been processed successfully on
+a computer system at the USGS, no warranty expressed or implied is made by the USGS
+regarding the use of the data on any other system, nor does the act of distribution
+constitute any such warranty.
+    Standard_Order_Process:  
+       
+        Digital_Form:  
+          Digital_Transfer_Information:  
+Format_Name:  Hierarchical Data Format (HDF) with the bands written as band
+interleaved by line (BIL), Geographic Tagged Image File Format (GeoTIFF), or JPEG. 
+Transfer_Size:  400 Mb
+          Digital_Transfer_Option:  
+ 
+Offline_Option:  
+Recording_Format:  Varies
+      Fees:  Typically, all data available from USGS/EROS are downloadble at no cost
+to the user.  There are some cases when a service fee is required to convert the
+analog film record to a digital file.  This non-refundable fee is $30 per
+scene/frame.
+      Ordering_Instructions:  A Data Acquisition Request (DAR) must be submitted to
+collect an image for a specific area of interest (http://eo1.usgs.gov/dar/form).
+      Turnaround:  A majority of the data are available for immediate downloading.
+Specific data processing may take 24 to 48 hours and film scanning service requests
+involving payment to the USGS can required 3 to 4 weeks upon successful payment of
+the request.
+    Custom_Order_Process:  Limited from data set to data set. Please consult the data
+sets product page for specific information.
+    Technical_Prerequisites:  Adequate computer capability is the only technical
+prerequisite for viewing data in digital form.  You may return here at any time and
+add to your data request before final submission. 
+Metadata_Reference_Information:  
+  Metadata_Date:  20020615
+   
+    Metadata_Review_Date:  20050625
+  Metadata_Contact:  
+    Contact_Information:  
+       
+        Contact_Person_Primary:  
+          Contact_Person:  lta@usgs.gov
+        Contact_Organization_Primary:  
+          Contact_Organization:  U.S. Geological Survey Earth Resources Observation
+and Science (EROS) Center
+          Contact_Person:  lta@usgs.gov
+      Contact_Position:  Long Term Archive (LTA)  Representative
+      Contact_Address:  
+        Address_Type:  mailing and physical address
+        Address:  Long Term Archive (LTA),  U.S. Geological Survey  (USGS)
+Earth Resources Observation and Science (EROS) Center 
+47914 252nd Street
+
+        City:  Sioux Falls
+        State_or_Province:  SD
+        Postal_Code:  57198-0001
+        Country:  USA
+      Contact_Electronic_Mail_Address:  lta@usgs.gov
+      Hours_of_Service:  0800 - 1600 CT, M-F,   -6 h  GMT
+      Contact_Instructions:  http://earthexplorer.usgs.gov
+  Metadata_Standard_Name:  Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version:  FGDC-STD-001-1998
+  Metadata_Time_Convention:  local time
+  Metadata_Access_Constraints:  None
+  Metadata_Use_Constraints:  None
+  Metadata_Security_Information:  
+    Metadata_Security_Classification_System:  None
+    Metadata_Security_Classification:  Unclassified
+    Metadata_Security_Handling_Description:  None
+</pre>	        <div style="text-align: center; padding-top: 5px;">
+        <a href='/metadata/4941/EO1H1430452010208110Kt_PF2_01/'>Table Format</a>
+    </div>
+    
+<!-- BEGIN USGS Footer Template -->
+        <div id="footer">
+            <div id="usgsfooter">
+                <p id="usgsfooterbar">
+                    <a target='new' title="Accessibility Policy (Section 508)" href="http://www.usgs.gov/laws/accessibility.html">Accessibility</a>
+                    <a target='new' title="Freedom of Information Act" href="http://www.usgs.gov/foia/">FOIA</a>
+                    <a target='new' title="Privacy policies of the U.S. Geological Survey." href="http://www.usgs.gov/laws/privacy.html">Privacy</a>
+                    <a target='new' title="Policies and notices that govern information posted on USGS Web sites." href="http://www.usgs.gov/laws/policies_notices.html">Policies and Notices</a>
+                    <a target='new' title="References to non-U.S. Department of the Interior (DOI) products do not constitute an endorsement by the DOI. By viewing the Google Maps API on this web site the user agrees to these TERMS of Service set forth by Google" href="http://code.google.com/apis/maps/terms.html">Google Maps API Disclaimer</a>
+                </p>
+                <p id="usgsfootertext">
+                    <a href="http://www.takepride.gov/">
+                        <img height="58" width="60" title="Take Pride in America Home Page" alt="Take Pride in America logo" src="/images/footer/footer_graphic_takePride.jpg"/>
+                    </a>
+                    <a href="http://usa.gov/">
+                        <img height="26" width="90" title="USAGov: Government Made Easy" alt="USA.gov logo" src="/images/footer/footer_graphic_usagov.jpg"/>
+                    </a>
+                    <a href="http://www.doi.gov/">U.S. Department of the Interior</a>
+                    <a href="http://www.usgs.gov/">U.S. Geological Survey</a>
+                    <br/>
+                    URL: http://earthexplorer.usgs.gov                    <br/>
+                    Page Contact Information:
+                    <a href="mailto:lta@usgs.gov">lta@usgs.gov</a>
+                    <br/>
+                    Page Last Modified:
+                    09/04/2013                </p>
+            </div>
+        </div>
+<!-- END USGS Footer Template -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['ee._setAccount', 'UA-21295076-1']);
+  _gaq.push(['ee._trackPageview']);
+  _gaq.push(['lta._setAccount', 'UA-21295076-2']);
+  _gaq.push(['lta._trackPageview']);
+
+</script>
+<script type="text/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+
+    </body>
+</html>
