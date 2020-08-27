@@ -1,5 +1,5 @@
 import numpy as np
-import gdal
+# import gdal
 from skimage import io
 from matplotlib import pyplot as plt 
 import os 
